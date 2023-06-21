@@ -1,0 +1,23 @@
+<script>
+    let fibonacciArray = [];
+    function countingFibonacci(num) {
+        if (num <= 2) {
+        
+             return 1;
+        } else {
+            const result = countingFibonacci(num - 1) + countingFibonacci(num - 2);
+            return result;
+        }
+    }
+    
+    function printFibonacci(num) {
+        for (let i = 1; i <= num; i++) {
+            // console.log(countingFibonacci(i));
+            fibonacciArray.push(countingFibonacci(i));
+        }
+        console.log(...fibonacciArray);
+    }
+    
+    printFibonacci(10);
+    </script>
+    
