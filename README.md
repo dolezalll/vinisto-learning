@@ -6,12 +6,12 @@
 
 **Učení**
 
-- [JavaScript](/JS): JavaScript
-- [TypeScript](/TypeScript): TypeScript.
-- [React](/React): React
+- [JavaScript](./JS): JavaScript
+- [TypeScript](./TypeScript): TypeScript.
+- [React](./React): React
 
 **Tasky**
-[Task - JS,TS,React](./tree/main/Task)
+[Task - JS,TS,React](./Task)
 
 
 
